@@ -11,6 +11,7 @@ html{
 a{
     color: #000;
     text-decoration: none;
+    display: inline-block;
 }
 body{
     font-weight: 400;
@@ -101,6 +102,7 @@ body{
     line-height: 24px;
     margin-bottom: 3px;
     position: relative;
+    padding-left: 24px;
 }
 
 .top-info__list li::before{
@@ -109,9 +111,18 @@ body{
     width: 13px;
     height: 13px;
     position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .top-info__btn {
+    color: #fff;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding: 13px 44px;
+    border-radius: 30px;
+    margin-bottom: 15px;
 }
 
 .top-info__btn-descr {
