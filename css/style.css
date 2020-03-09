@@ -38,6 +38,17 @@ body{
     height: 87px;
 }
 
+.btn__menu{
+    width: 40px;
+    display: none;
+}
+
+.btn__menu div {
+    height: 5px;
+    background-color: #000;
+    margin-bottom: 5px;
+}
+
 .menu__list{
     display: flex;
 }
@@ -64,7 +75,7 @@ body{
 }
 
 .top-info {
-    min-width: 555px;
+    max-width: 555px;
     margin-right: 35px;
     color: #fff;
 }
@@ -125,10 +136,6 @@ body{
     padding: 13px 44px;
     border-radius: 30px;
     margin-bottom: 15px;
-}
-
-.top-images {
-
 }
 
 .top-images__box {
@@ -382,6 +389,10 @@ body{
     background-color: #fafafa;
 }
 
+.reviews .title {
+    margin-bottom: 170px;
+}
+
 .reviews-slider {
     margin-top: 160px -50px 0;
 }
@@ -390,15 +401,15 @@ body{
     margin: 0 -50px;
 }
 
-.reviews-slider .slick-track {
+.reviews-slider .slick-slide {
     margin: 0 50px;
+    padding-bottom: 70px;
 }
 
 .reviews-slider .slick-dots {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .reviews-slider .slick-dots li {
@@ -419,10 +430,6 @@ body{
     border: none;
     background-color: #2575e7;
     outline: none;
-}
-
-.reviews-slider__item {
-
 }
 
 .reviews-box {
@@ -465,7 +472,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
+.company-logo__inner {
+    display: flex;
+    justify-content: center;
+    padding: 110px 0 100px;
+}
 
 
 
