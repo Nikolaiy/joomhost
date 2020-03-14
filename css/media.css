@@ -39,6 +39,11 @@
         margin: 0 auto;
         max-width: 520px;
     }
+
+    .company-logo__inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 1065px){
@@ -191,24 +196,14 @@
     .footer-form{
         margin-top: 0;
     }
+
+    .company-logo__inner{
+        padding: 20px 10px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 992px){
     .menu__list{
         display: flex !important;
     }
+}
